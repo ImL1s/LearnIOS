@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:01"
+      name = "01">
+      <FileRef
+         location = "group:01.FoodMenu/01.FoodMenu.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:08.UIApplication"
+         name = "08.UIApplication">
+         <FileRef
+            location = "group:08.UIApplication.xcodeproj">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "container:"
+      name = "02">
+      <FileRef
+         location = "group:02/1.UIWindows/1.UIWindows.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:02/2.CteateController/2.CteateController.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>
