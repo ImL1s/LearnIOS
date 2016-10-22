@@ -5,6 +5,9 @@
       location = "group:01"
       name = "01">
       <FileRef
+         location = "group:02.NationalFlag/02.NationalFlag.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:01.FoodMenu/01.FoodMenu.xcodeproj">
       </FileRef>
       <Group
