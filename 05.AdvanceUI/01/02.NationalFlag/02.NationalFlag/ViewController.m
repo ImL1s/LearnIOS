@@ -7,22 +7,57 @@
 //
 
 #import "ViewController.h"
+#import "FlagView.h"
 
-@interface ViewController ()
+@interface ViewController ()<UIPickerViewDelegate,UIPickerViewDataSource>
+
+@property (weak, nonatomic) IBOutlet UIPickerView *picker;
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self picker].dataSource = self;
+    [self picker].delegate = self;
 }
 
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+}
+
+#pragma mark asd
+
+// returns the number of 'columns' to display.
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView
+{
+    return 4;
+}
+
+// returns the # of rows in each component..
+- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
+{
+    return 3;
+}
+
+- (UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(nullable UIView *)view __TVOS_PROHIBITED
+{
+//    UILabel *label = [[UILabel alloc] init];
+//    label.text = @"This is a label";
+//    label.backgroundColor = [UIColor yellowColor];
+//    label.frame =
+    
+//    return label;
+    
+    FlagView *v = [[FlagView alloc] init];
+    
+    
 }
 
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9407D1E51DBBB1A10082A29F /* Flag.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9407D1E41DBBB1A10082A29F /* Flag.xib */; };
+		9407D1EE1DBBB2790082A29F /* FlagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9407D1ED1DBBB2790082A29F /* FlagView.m */; };
 		94A0605C1DBB9F830040E0A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A0605B1DBB9F830040E0A4 /* main.m */; };
 		94A0605F1DBB9F830040E0A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A0605E1DBB9F830040E0A4 /* AppDelegate.m */; };
 		94A060621DBB9F830040E0A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A060611DBB9F830040E0A4 /* ViewController.m */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9407D1E41DBBB1A10082A29F /* Flag.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Flag.xib; sourceTree = "<group>"; };
+		9407D1EC1DBBB2790082A29F /* FlagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlagView.h; sourceTree = "<group>"; };
+		9407D1ED1DBBB2790082A29F /* FlagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlagView.m; sourceTree = "<group>"; };
 		94A060571DBB9F830040E0A4 /* 02.NationalFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 02.NationalFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A0605B1DBB9F830040E0A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		94A0605D1DBB9F830040E0A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +72,9 @@
 				94A060681DBB9F830040E0A4 /* LaunchScreen.storyboard */,
 				94A0606B1DBB9F830040E0A4 /* Info.plist */,
 				94A0605A1DBB9F830040E0A4 /* Supporting Files */,
+				9407D1E41DBBB1A10082A29F /* Flag.xib */,
+				9407D1EC1DBBB2790082A29F /* FlagView.h */,
+				9407D1ED1DBBB2790082A29F /* FlagView.m */,
 			);
 			path = 02.NationalFlag;
 			sourceTree = "<group>";
@@ -140,6 +148,7 @@
 				94A0606A1DBB9F830040E0A4 /* LaunchScreen.storyboard in Resources */,
 				94A060671DBB9F830040E0A4 /* Assets.xcassets in Resources */,
 				94A060651DBB9F830040E0A4 /* Main.storyboard in Resources */,
+				9407D1E51DBBB1A10082A29F /* Flag.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +161,7 @@
 			files = (
 				94A060621DBB9F830040E0A4 /* ViewController.m in Sources */,
 				94A0605F1DBB9F830040E0A4 /* AppDelegate.m in Sources */,
+				9407D1EE1DBBB2790082A29F /* FlagView.m in Sources */,
 				94A0605C1DBB9F830040E0A4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +319,7 @@
 				94A060701DBB9F830040E0A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
