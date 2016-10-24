@@ -10,6 +10,9 @@
       <FileRef
          location = "group:02.NationalFlag/02.NationalFlag.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:03.&#x7701;&#x5e02;&#x9023;&#x52d5;/03.&#x7701;&#x5e02;&#x9023;&#x52d5;.xcodeproj">
+      </FileRef>
       <Group
          location = "group:08.UIApplication"
          name = "08.UIApplication">

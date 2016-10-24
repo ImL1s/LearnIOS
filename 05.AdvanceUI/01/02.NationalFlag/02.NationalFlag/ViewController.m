@@ -8,14 +8,27 @@
 
 #import "ViewController.h"
 #import "FlagView.h"
+#import "Flag.h"
 
 @interface ViewController ()<UIPickerViewDelegate,UIPickerViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UIPickerView *picker;
 
+@property (strong,nonatomic) NSArray *flagArray;
+
 @end
 
 @implementation ViewController
+
+- (NSArray *) flagArray
+{
+    if(_flagArray == NULL)
+    {
+        _flagArray = [Flag flagList];
+    }
+    
+    return _flagArray;
+}
 
 - (void)viewDidLoad
 {
@@ -37,13 +50,13 @@
 // returns the number of 'columns' to display.
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView
 {
-    return 4;
+    return 1;
 }
 
 // returns the # of rows in each component..
 - (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
 {
-    return 3;
+    return self.flagArray.count;
 }
 
 - (UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(nullable UIView *)view __TVOS_PROHIBITED
@@ -52,12 +65,16 @@
 //    label.text = @"This is a label";
 //    label.backgroundColor = [UIColor yellowColor];
 //    label.frame =
-    
+
 //    return label;
     
-    FlagView *v = [[FlagView alloc] init];
+    FlagView *v = [FlagView flagView];
+    v.bounds = CGRectMake(0, 0, 200, 0);
+    NSArray *flagArray = [self flagArray];
+    Flag *flag = flagArray[row];
+    [v setFlag:flag];
     
-    
+    return v;
 }
 
 

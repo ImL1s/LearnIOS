@@ -4,4 +4,7 @@
    <FileRef
       location = "group:01.Concept/01.Concept.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:05.NSThread/05.NSThread.xcodeproj">
+   </FileRef>
 </Workspace>

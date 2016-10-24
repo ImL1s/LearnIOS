@@ -66,7 +66,6 @@
 				0989B34C1DB8E0B30075571C /* ViewController.m */,
 				0989B34E1DB8E0B30075571C /* Main.storyboard */,
 				0989B3511DB8E0B30075571C /* Assets.xcassets */,
-				0989B3611DB8E8C00075571C /* foods.plist */,
 				0989B3531DB8E0B30075571C /* LaunchScreen.storyboard */,
 				0989B3561DB8E0B30075571C /* Info.plist */,
 				0989B3451DB8E0B30075571C /* Supporting Files */,
@@ -77,6 +76,7 @@
 		0989B3451DB8E0B30075571C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0989B3611DB8E8C00075571C /* foods.plist */,
 				0989B3461DB8E0B30075571C /* main.m */,
 			);
 			name = "Supporting Files";
@@ -313,6 +313,7 @@
 				0989B35B1DB8E0B30075571C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
