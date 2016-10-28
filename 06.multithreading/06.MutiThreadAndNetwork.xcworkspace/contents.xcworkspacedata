@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "container:"
+      name = "01">
+      <FileRef
+         location = "group:01.Concept/01.Concept.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:05.NSThread/05.NSThread.xcodeproj">
+      </FileRef>
+   </Group>
    <FileRef
-      location = "group:01.Concept/01.Concept.xcodeproj">
+      location = "group:01/13.ThreadCommunication/13.ThreadCommunication.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:05.NSThread/05.NSThread.xcodeproj">
-   </FileRef>
+   <Group
+      location = "container:"
+      name = "02">
+      <FileRef
+         location = "group:02/1.&#x57f7;&#x884c;&#x7dd2;&#x9593;&#x7684;&#x901a;&#x4fe1;/1.&#x57f7;&#x884c;&#x7dd2;&#x9593;&#x7684;&#x901a;&#x4fe1;.xcodeproj">
+      </FileRef>
+   </Group>
 </Workspace>

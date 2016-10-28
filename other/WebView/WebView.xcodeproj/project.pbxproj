@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		942058DF1DC1D6F200BF8E5F /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 942058DD1DC1D6F200BF8E5F /* MyViewController.m */; };
+		942058E01DC1D6F200BF8E5F /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 942058DE1DC1D6F200BF8E5F /* MyViewController.xib */; };
 		948B1E3B1DBDB9290019E9A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 948B1E3A1DBDB9290019E9A0 /* main.m */; };
 		948B1E3E1DBDB9290019E9A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 948B1E3D1DBDB9290019E9A0 /* AppDelegate.m */; };
 		948B1E411DBDB9290019E9A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 948B1E401DBDB9290019E9A0 /* ViewController.m */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		942058DC1DC1D6F200BF8E5F /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		942058DD1DC1D6F200BF8E5F /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		942058DE1DC1D6F200BF8E5F /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
 		948B1E361DBDB9290019E9A0 /* WebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		948B1E3A1DBDB9290019E9A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		948B1E3C1DBDB9290019E9A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +72,9 @@
 				948B1E471DBDB9290019E9A0 /* LaunchScreen.storyboard */,
 				948B1E4A1DBDB9290019E9A0 /* Info.plist */,
 				948B1E391DBDB9290019E9A0 /* Supporting Files */,
+				942058DC1DC1D6F200BF8E5F /* MyViewController.h */,
+				942058DD1DC1D6F200BF8E5F /* MyViewController.m */,
+				942058DE1DC1D6F200BF8E5F /* MyViewController.xib */,
 			);
 			path = WebView;
 			sourceTree = "<group>";
@@ -110,6 +118,7 @@
 				TargetAttributes = {
 					948B1E351DBDB9290019E9A0 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZAZT4JZ625;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,6 +148,7 @@
 			files = (
 				948B1E491DBDB9290019E9A0 /* LaunchScreen.storyboard in Resources */,
 				948B1E461DBDB9290019E9A0 /* Assets.xcassets in Resources */,
+				942058E01DC1D6F200BF8E5F /* MyViewController.xib in Resources */,
 				948B1E441DBDB9290019E9A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +162,7 @@
 			files = (
 				948B1E411DBDB9290019E9A0 /* ViewController.m in Sources */,
 				948B1E3E1DBDB9290019E9A0 /* AppDelegate.m in Sources */,
+				942058DF1DC1D6F200BF8E5F /* MyViewController.m in Sources */,
 				948B1E3B1DBDB9290019E9A0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZAZT4JZ625;
 				INFOPLIST_FILE = WebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HomeWatch.WebView;
@@ -283,6 +295,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZAZT4JZ625;
 				INFOPLIST_FILE = WebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HomeWatch.WebView;
@@ -309,6 +322,7 @@
 				948B1E4F1DBDB9290019E9A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
