@@ -3,22 +3,35 @@
    version = "1.0">
    <Group
       location = "container:"
-      name = "01">
+      name = "01.Thread">
       <FileRef
-         location = "group:01.Concept/01.Concept.xcodeproj">
+         location = "group:01/01.Concept/01.Concept.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:05.NSThread/05.NSThread.xcodeproj">
+         location = "group:01/05.NSThread/05.NSThread.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:01/13.ThreadCommunication/13.ThreadCommunication.xcodeproj">
       </FileRef>
    </Group>
-   <FileRef
-      location = "group:01/13.ThreadCommunication/13.ThreadCommunication.xcodeproj">
-   </FileRef>
    <Group
       location = "container:"
-      name = "02">
+      name = "02.GCD">
       <FileRef
          location = "group:02/1.&#x57f7;&#x884c;&#x7dd2;&#x9593;&#x7684;&#x901a;&#x4fe1;/1.&#x57f7;&#x884c;&#x7dd2;&#x9593;&#x7684;&#x901a;&#x4fe1;.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "03.NSOperation&amp;NetImageCache">
+      <FileRef
+         location = "group:05.depend/05.depend.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:07.SyncDownloadImage/07.SyncDownloadImage.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:08.AsyncDownloadImage/08.AsyncDownloadImage.xcodeproj">
       </FileRef>
    </Group>
 </Workspace>
