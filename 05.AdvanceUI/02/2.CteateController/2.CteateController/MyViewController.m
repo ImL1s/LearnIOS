@@ -16,21 +16,25 @@
 
 - (void)loadView
 {
-//    [super loadView];
+    [super loadView];
     
-//    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 200, 60)];
-//    [btn setTitleColor:[UIColor yellowColor] forState:UIControlStateNormal];
+    //UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 200, 60)];
+    //[btn setTitleColor:[UIColor yellowColor] forState:UIControlStateNormal];
+//    [self.view addSubview:btn];
 //    self.view = btn;
     
-    self.view = [[UITableView alloc] init];
+    //UIView *v = self.view;
+    //self.view = [[UITableView alloc] init];
 }
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }

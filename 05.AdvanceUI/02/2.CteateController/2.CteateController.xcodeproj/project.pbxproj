@@ -319,6 +319,7 @@
 				09DD8F0E1DA946E10019CA6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

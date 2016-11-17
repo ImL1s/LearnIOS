@@ -25,13 +25,226 @@
       location = "container:"
       name = "03.NSOperation&amp;NetImageCache">
       <FileRef
-         location = "group:05.depend/05.depend.xcodeproj">
+         location = "group:03.NSOperation&amp;NetImageCache/05.depend/05.depend.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:07.SyncDownloadImage/07.SyncDownloadImage.xcodeproj">
+         location = "group:03.NSOperation&amp;NetImageCache/07.SyncDownloadImage/07.SyncDownloadImage.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:08.AsyncDownloadImage/08.AsyncDownloadImage.xcodeproj">
+         location = "group:03.NSOperation&amp;NetImageCache/08.AsyncDownloadImage/08.AsyncDownloadImage.xcodeproj">
       </FileRef>
+   </Group>
+   <Group
+      location = "group:04.SandBoxAndSDWebImage"
+      name = "04.SandBoxAndSDWebImage">
+      <FileRef
+         location = "group:01.Circular reference/01.CircleReference.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:02.SandBox/02.SandBox.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:03.Cache/03.SandBoxCache.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:08.SDWebImage"
+         name = "08.SDWebImage">
+         <Group
+            location = "group:08.SDWebImage"
+            name = "08.SDWebImage">
+            <FileRef
+               location = "group:AppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.m">
+            </FileRef>
+            <Group
+               location = "group:Assets.xcassets"
+               name = "Assets.xcassets">
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:Base.lproj"
+               name = "Base.lproj">
+               <FileRef
+                  location = "group:LaunchScreen.storyboard">
+               </FileRef>
+               <FileRef
+                  location = "group:Main.storyboard">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:FLAnimatedImage"
+               name = "FLAnimatedImage">
+               <FileRef
+                  location = "group:FLAnimatedImage.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FLAnimatedImage.m">
+               </FileRef>
+               <FileRef
+                  location = "group:FLAnimatedImageView.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FLAnimatedImageView.m">
+               </FileRef>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <Group
+               location = "group:SDWebImage"
+               name = "SDWebImage">
+               <Group
+                  location = "group:FLAnimatedImage"
+                  name = "FLAnimatedImage">
+                  <FileRef
+                     location = "group:FLAnimatedImageView+WebCache.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FLAnimatedImageView+WebCache.m">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:MKAnnotationView+WebCache.h">
+               </FileRef>
+               <FileRef
+                  location = "group:MKAnnotationView+WebCache.m">
+               </FileRef>
+               <FileRef
+                  location = "group:NSData+ImageContentType.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSData+ImageContentType.m">
+               </FileRef>
+               <FileRef
+                  location = "group:NSImage+WebCache.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSImage+WebCache.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SDImageCache.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SDImageCache.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SDImageCacheConfig.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SDImageCacheConfig.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SDWebImageCompat.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SDWebImageCompat.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SDWebImageDecoder.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SDWebImageDecoder.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SDWebImageDownloader.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SDWebImageDownloader.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SDWebImageDownloaderOperation.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SDWebImageDownloaderOperation.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SDWebImageManager.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SDWebImageManager.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SDWebImageOperation.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SDWebImagePrefetcher.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SDWebImagePrefetcher.m">
+               </FileRef>
+               <FileRef
+                  location = "group:UIButton+WebCache.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIButton+WebCache.m">
+               </FileRef>
+               <FileRef
+                  location = "group:UIImage+GIF.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIImage+GIF.m">
+               </FileRef>
+               <FileRef
+                  location = "group:UIImage+MultiFormat.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIImage+MultiFormat.m">
+               </FileRef>
+               <FileRef
+                  location = "group:UIImage+WebP.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIImage+WebP.m">
+               </FileRef>
+               <FileRef
+                  location = "group:UIImageView+HighlightedWebCache.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIImageView+HighlightedWebCache.m">
+               </FileRef>
+               <FileRef
+                  location = "group:UIImageView+WebCache.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIImageView+WebCache.m">
+               </FileRef>
+               <FileRef
+                  location = "group:UIView+WebCache.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIView+WebCache.m">
+               </FileRef>
+               <FileRef
+                  location = "group:UIView+WebCacheOperation.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIView+WebCacheOperation.m">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:ViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:08.SDWebImage.xcodeproj">
+         </FileRef>
+      </Group>
    </Group>
 </Workspace>

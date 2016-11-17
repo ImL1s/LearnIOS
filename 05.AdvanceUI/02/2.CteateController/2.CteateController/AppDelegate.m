@@ -26,11 +26,13 @@
 //    UIViewController *secondController = [self createByStoryboardSpecifiedSID:mWindow storyBoardID:@"secondView"];
 //    UIViewController *directController = [self directCteateController];
     UIViewController *xibController = [self createByXib];
+    UIViewController *storyboardController = [self createByStoryboardDefault];
     
 //    mWindow.rootViewController = mainController;
 //    mWindow.rootViewController = secondController;
 //    mWindow.rootViewController = directController;
     mWindow.rootViewController = xibController;
+    mWindow.rootViewController = storyboardController;
     
     [mWindow makeKeyAndVisible];
     
@@ -40,8 +42,8 @@
     return YES;
 }
 
-// 取得預設為箭頭的ViewController
-- (UIViewController *) createByStoryboardDefault:(UIWindow *)window
+// 取得箭頭所指的ViewController
+- (UIViewController *) createByStoryboardDefault
 {
     // 取得MainStoreboard
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];

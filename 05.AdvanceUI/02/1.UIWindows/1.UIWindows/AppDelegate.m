@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "TestViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,28 +17,31 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
     CGRect rect = [[UIScreen mainScreen] bounds];
     
     UIWindow *window = [[UIWindow alloc] initWithFrame:rect];
     
+    // 默認的ViewController
     UIViewController *controller = [[UIViewController alloc] init];
-    
     [controller view].backgroundColor = [UIColor redColor];
+    
+    // 自定義的ViewController
+    TestViewController *tController = [[TestViewController alloc]init];
+    tController.view.backgroundColor = [UIColor blueColor];
     
     [window setBackgroundColor:[UIColor purpleColor]];
     
-
-
-    // 設定UIWindow,如果UIWindow為默認大小，這部有沒有做都沒關係
+    
+    // 設定根控制器,並且會按照根控制器的View(xib)顯示介面
+    //window.rootViewController = controller;
+    window.rootViewController = tController;
+    
+    // 設定窗口為主窗口並且顯示,不然只會黑色的一片
+    [window makeKeyAndVisible];
+    
     self.window = window;
-    
-    // 必須先將window綁定才能設定rootViewController
-    self.window.rootViewController = controller;
-    
-    [[self window] makeKeyAndVisible];
     
     return YES;
 }

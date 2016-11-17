@@ -30,5 +30,36 @@
       <FileRef
          location = "group:02/2.CteateController/2.CteateController.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:3.NavigationController_InCOde/3.NavigationController_InCOde.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/iml1s-macpro/Project/XCode/IOS/LearnIOS/05.AdvanceUI/04.NavigationController(Storyboard)/4.NavigationController(Storyboard).xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/iml1s-macpro/Project/XCode/IOS/LearnIOS/05.AdvanceUI/05.UIViewController_LifeTime/5.UIViewController_LifeTime.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:02/6.LazyLoad_View/6.LazyLoad_View.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:02/7.Contacts/7.Contacts.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:02/08.Cotacts-CodeOnly/08.Cotacts-CodeOnly.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "03">
+      <FileRef
+         location = "group:03/01.Plist&#x5b58;&#x5132;/01.Plist&#x5b58;&#x5132;.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:03/02.NSUserDefaults/02.NSUserDefaults.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:03/03.Cotacts-CodeOnly/03.Cotacts-NSUserDefaults.xcodeproj">
+      </FileRef>
    </Group>
 </Workspace>

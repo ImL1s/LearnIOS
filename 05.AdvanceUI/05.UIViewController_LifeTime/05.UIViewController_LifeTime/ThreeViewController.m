@@ -1,0 +1,47 @@
+//
+//  ThreeViewController.m
+//  5.UIViewController_LifeTime
+//
+//  Created by ImL1s-MacPro on 2016/11/11.
+//  Copyright © 2016年 ImL1s-MacPro. All rights reserved.
+//
+
+#import "ThreeViewController.h"
+
+@interface ThreeViewController ()
+
+- (IBAction)goToOneViewController;
+
+@end
+
+@implementation ThreeViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+- (IBAction)goToOneViewController
+{
+    // 跳轉到堆棧中指定的ViewController
+    NSArray *subViewArray = self.navigationController.childViewControllers;
+    [self.navigationController popToViewController:subViewArray[0] animated:YES];
+}
+@end

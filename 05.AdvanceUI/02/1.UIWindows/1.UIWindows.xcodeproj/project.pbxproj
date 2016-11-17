@@ -13,6 +13,8 @@
 		09B517041DA926DF00403F66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B517021DA926DF00403F66 /* Main.storyboard */; };
 		09B517061DA926DF00403F66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B517051DA926DF00403F66 /* Assets.xcassets */; };
 		09B517091DA926DF00403F66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B517071DA926DF00403F66 /* LaunchScreen.storyboard */; };
+		9496951D1DD41C69008DECBC /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9496951B1DD41C69008DECBC /* TestViewController.m */; };
+		9496951E1DD41C69008DECBC /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9496951C1DD41C69008DECBC /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		09B517051DA926DF00403F66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09B517081DA926DF00403F66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09B5170A1DA926DF00403F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9496951A1DD41C69008DECBC /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		9496951B1DD41C69008DECBC /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		9496951C1DD41C69008DECBC /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,9 @@
 				09B517071DA926DF00403F66 /* LaunchScreen.storyboard */,
 				09B5170A1DA926DF00403F66 /* Info.plist */,
 				09B516F91DA926DF00403F66 /* Supporting Files */,
+				9496951A1DD41C69008DECBC /* TestViewController.h */,
+				9496951B1DD41C69008DECBC /* TestViewController.m */,
+				9496951C1DD41C69008DECBC /* TestViewController.xib */,
 			);
 			path = 1.UIWindows;
 			sourceTree = "<group>";
@@ -139,6 +147,7 @@
 			files = (
 				09B517091DA926DF00403F66 /* LaunchScreen.storyboard in Resources */,
 				09B517061DA926DF00403F66 /* Assets.xcassets in Resources */,
+				9496951E1DD41C69008DECBC /* TestViewController.xib in Resources */,
 				09B517041DA926DF00403F66 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +161,7 @@
 			files = (
 				09B517011DA926DF00403F66 /* ViewController.m in Sources */,
 				09B516FE1DA926DF00403F66 /* AppDelegate.m in Sources */,
+				9496951D1DD41C69008DECBC /* TestViewController.m in Sources */,
 				09B516FB1DA926DF00403F66 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +319,7 @@
 				09B5170F1DA926DF00403F66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
