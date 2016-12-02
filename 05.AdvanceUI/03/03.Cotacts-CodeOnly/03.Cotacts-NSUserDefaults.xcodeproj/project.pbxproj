@@ -24,6 +24,16 @@
 		9491B3781DDC3B2D0003F762 /* MBProgressHUD+XMG.m in Sources */ = {isa = PBXBuildFile; fileRef = 9491B3751DDC3B2D0003F762 /* MBProgressHUD+XMG.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		94C34F8C1DDED3CF00779665 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C34F881DDED3CF00779665 /* 04.物件歸檔.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 94C34F221DDEB4D800779665;
+			remoteInfo = "04.物件歸檔";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		9491B32F1DDB09AF0003F762 /* 03.Cotacts-NSUserDefaults.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03.Cotacts-NSUserDefaults.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9491B3331DDB09AF0003F762 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -50,6 +60,7 @@
 		9491B3731DDC3B2D0003F762 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		9491B3741DDC3B2D0003F762 /* MBProgressHUD+XMG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XMG.h"; sourceTree = "<group>"; };
 		9491B3751DDC3B2D0003F762 /* MBProgressHUD+XMG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XMG.m"; sourceTree = "<group>"; };
+		94C34F881DDED3CF00779665 /* 04.物件歸檔.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "04.物件歸檔.xcodeproj"; path = "../04.物件歸檔/04.物件歸檔.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +77,7 @@
 		9491B3261DDB09AF0003F762 = {
 			isa = PBXGroup;
 			children = (
+				94C34F881DDED3CF00779665 /* 04.物件歸檔.xcodeproj */,
 				9491B3311DDB09AF0003F762 /* 03.Cotacts-CodeOnly */,
 				9491B3301DDB09AF0003F762 /* Products */,
 			);
@@ -263,6 +275,14 @@
 			name = Other;
 			sourceTree = "<group>";
 		};
+		94C34F891DDED3CF00779665 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94C34F8D1DDED3CF00779665 /* 04.物件歸檔.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -315,12 +335,28 @@
 			mainGroup = 9491B3261DDB09AF0003F762;
 			productRefGroup = 9491B3301DDB09AF0003F762 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 94C34F891DDED3CF00779665 /* Products */;
+					ProjectRef = 94C34F881DDED3CF00779665 /* 04.物件歸檔.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9491B32E1DDB09AF0003F762 /* 03.Cotacts-NSUserDefaults */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		94C34F8D1DDED3CF00779665 /* 04.物件歸檔.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "04.物件歸檔.app";
+			remoteRef = 94C34F8C1DDED3CF00779665 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9491B32D1DDB09AF0003F762 /* Resources */ = {

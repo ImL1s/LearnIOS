@@ -61,5 +61,97 @@
       <FileRef
          location = "group:03/03.Cotacts-CodeOnly/03.Cotacts-NSUserDefaults.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:03/04.&#x7269;&#x4ef6;&#x6b78;&#x6a94;/04.&#x7269;&#x4ef6;&#x6b78;&#x6a94;.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:03/05.initWithCoder/05.initWithCoder.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:03/06.&#x500b;&#x4eba;&#x8a73;&#x60c5;&#x9801;/06-08.&#x500b;&#x4eba;&#x8a73;&#x60c5;&#x9801;.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:03/07.&#x500b;&#x4eba;&#x8a73;&#x60c5;&#x9801;-&#x6a19;&#x984c;&#x7e2e;&#x653e;/07.&#x500b;&#x4eba;&#x8a73;&#x60c5;&#x9801;-&#x6a19;&#x984c;&#x7e2e;&#x653e;.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/iml1s-macpro/Project/XCode/IOS/LearnIOS/05.AdvanceUI/03/08.&#x500b;&#x4eba;&#x8a73;&#x60c5;&#x9801;-&#x6a19;&#x984c;&#x900f;&#x660e;&#x5ea6;/08.&#x500b;&#x4eba;&#x8a73;&#x60c5;&#x9801;-&#x6a19;&#x984c;&#x900f;&#x660e;&#x5ea6;.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:03/09.UITabBarController&#x57fa;&#x672c;&#x4f7f;&#x7528;/09.UITabBarController&#x57fa;&#x672c;&#x4f7f;&#x7528;.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:03/10.UITabBarController(&#x7ba1;&#x7406;&#x539f;&#x5247;)/10.UITabBarController(&#x7ba1;&#x7406;&#x539f;&#x5247;).xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:03/11.UITabBar&#x8a2d;&#x5b9a;&#x5167;&#x5bb9;/11.UITabBar&#x8a2d;&#x5b9a;&#x5167;&#x5bb9;.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:03/12.&#x4e3b;&#x6d41;&#x6846;&#x67b6;&#x642d;&#x5efa;/12.&#x4e3b;&#x6d41;&#x6846;&#x67b6;&#x642d;&#x5efa;.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:03/13.Modal/13.Modal.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "04">
+      <FileRef
+         location = "group:04/01.transform/01.transform.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:04/02.UIView&#x7684;&#x62d6;&#x62fd;/02.UIView&#x7684;&#x62d6;&#x62fd;.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:04/05.hitTest&#x8207;pointInside/05.hitTest&#x8207;pointInside.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:04/07.hitTest&#x7a7f;&#x900f;&#x9ede;&#x64ca;Button/07.hitTest&#x7a7f;&#x900f;&#x9ede;&#x64ca;Button.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:04/10.&#x624b;&#x52e2;&#x8b58;&#x5225;/10.&#x624b;&#x52e2;&#x8b58;&#x5225;.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:04/11.&#x624b;&#x52e2;&#x8b58;&#x5225;(&#x62d6;&#x52d5;&#x65cb;&#x8f49;&#x7e2e;&#x653e;)/11.&#x624b;&#x52e2;&#x8b58;&#x5225;(&#x62d6;&#x52d5;&#x65cb;&#x8f49;&#x7e2e;&#x653e;).xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:04/11.&#x62bd;&#x5c5c;&#x6548;&#x679c;/12.&#x62bd;&#x5c5c;&#x6548;&#x679c;.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:04/13.&#x4f7f;&#x7528;&#x62bd;&#x5c5c;&#x985e;/13.&#x4f7f;&#x7528;&#x62bd;&#x5c5c;&#x985e;.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:05"
+      name = "05">
+      <FileRef
+         location = "group:01.Quartz&#x7c21;&#x55ae;&#x7e6a;&#x88fd;/01.Quartz&#x7c21;&#x55ae;&#x7e6a;&#x88fd;.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:02.Quartz(&#x756b;&#x5716;&#x5f62;)/02.Quartz(&#x756b;&#x5716;&#x5f62;).xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:03.&#x4e0b;&#x8f09;&#x9032;&#x5ea6;&#x689d;/03.&#x4e0b;&#x8f09;&#x9032;&#x5ea6;&#x689d;.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:04.&#x5713;&#x9905;&#x5716;/04.&#x5713;&#x9905;&#x5716;.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:05.UIKit&#x7e6a;&#x5716;&#x6f14;&#x7df4;/05.UIKit&#x7e6a;&#x5716;&#x6f14;&#x7df4;.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:06.&#x6a21;&#x4eff;&#x7cfb;&#x7d71;UIImageView/06.&#x6a21;&#x4eff;&#x7cfb;&#x7d71;UIImageView.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:07.&#x5b9a;&#x6642;&#x5668;_&#x96ea;&#x82b1;&#x6548;&#x679c;/07.&#x5b9a;&#x6642;&#x5668;_&#x96ea;&#x82b1;&#x6548;&#x679c;.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:08.&#x5716;&#x5f62;&#x4e0a;&#x4e0b;&#x6587;&#x68e7;/08.&#x5716;&#x5f62;&#x4e0a;&#x4e0b;&#x6587;&#x68e7;.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:09.&#x5716;&#x7247;&#x4e0a;&#x4e0b;&#x6587;&#x7684;&#x77e9;&#x9663;&#x64cd;&#x4f5c;/09.&#x5716;&#x7247;&#x4e0a;&#x4e0b;&#x6587;&#x7684;&#x77e9;&#x9663;&#x64cd;&#x4f5c;.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:10.&#x5716;&#x7247;&#x52a0;&#x6c34;&#x5370;/10.&#x5716;&#x7247;&#x52a0;&#x6c34;&#x5370;.xcodeproj">
+      </FileRef>
    </Group>
 </Workspace>
