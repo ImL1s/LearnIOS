@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		944CA6D31DFA5C2A0083F0CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 944CA6D21DFA5C2A0083F0CB /* main.m */; };
+		944CA6D61DFA5C2A0083F0CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 944CA6D51DFA5C2A0083F0CB /* AppDelegate.m */; };
+		944CA6D91DFA5C2A0083F0CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944CA6D81DFA5C2A0083F0CB /* ViewController.m */; };
+		944CA6DC1DFA5C2A0083F0CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944CA6DA1DFA5C2A0083F0CB /* Main.storyboard */; };
+		944CA6DE1DFA5C2A0083F0CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 944CA6DD1DFA5C2A0083F0CB /* Assets.xcassets */; };
+		944CA6E11DFA5C2A0083F0CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944CA6DF1DFA5C2A0083F0CB /* LaunchScreen.storyboard */; };
+		944CA6EA1DFA5E660083F0CB /* LockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 944CA6E91DFA5E660083F0CB /* LockView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		944CA6CE1DFA5C2A0083F0CB /* 07.手勢解鎖.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "07.手勢解鎖.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		944CA6D21DFA5C2A0083F0CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		944CA6D41DFA5C2A0083F0CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		944CA6D51DFA5C2A0083F0CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		944CA6D71DFA5C2A0083F0CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		944CA6D81DFA5C2A0083F0CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		944CA6DB1DFA5C2A0083F0CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		944CA6DD1DFA5C2A0083F0CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		944CA6E01DFA5C2A0083F0CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		944CA6E21DFA5C2A0083F0CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		944CA6E81DFA5E660083F0CB /* LockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockView.h; sourceTree = "<group>"; };
+		944CA6E91DFA5E660083F0CB /* LockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		944CA6CB1DFA5C2A0083F0CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		944CA6C51DFA5C2A0083F0CB = {
+			isa = PBXGroup;
+			children = (
+				944CA6D01DFA5C2A0083F0CB /* 07.手勢解鎖 */,
+				944CA6CF1DFA5C2A0083F0CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		944CA6CF1DFA5C2A0083F0CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				944CA6CE1DFA5C2A0083F0CB /* 07.手勢解鎖.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		944CA6D01DFA5C2A0083F0CB /* 07.手勢解鎖 */ = {
+			isa = PBXGroup;
+			children = (
+				944CA6D41DFA5C2A0083F0CB /* AppDelegate.h */,
+				944CA6D51DFA5C2A0083F0CB /* AppDelegate.m */,
+				944CA6D71DFA5C2A0083F0CB /* ViewController.h */,
+				944CA6D81DFA5C2A0083F0CB /* ViewController.m */,
+				944CA6DA1DFA5C2A0083F0CB /* Main.storyboard */,
+				944CA6DD1DFA5C2A0083F0CB /* Assets.xcassets */,
+				944CA6DF1DFA5C2A0083F0CB /* LaunchScreen.storyboard */,
+				944CA6E21DFA5C2A0083F0CB /* Info.plist */,
+				944CA6D11DFA5C2A0083F0CB /* Supporting Files */,
+				944CA6E81DFA5E660083F0CB /* LockView.h */,
+				944CA6E91DFA5E660083F0CB /* LockView.m */,
+			);
+			path = "07.手勢解鎖";
+			sourceTree = "<group>";
+		};
+		944CA6D11DFA5C2A0083F0CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				944CA6D21DFA5C2A0083F0CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		944CA6CD1DFA5C2A0083F0CB /* 07.手勢解鎖 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 944CA6E51DFA5C2A0083F0CB /* Build configuration list for PBXNativeTarget "07.手勢解鎖" */;
+			buildPhases = (
+				944CA6CA1DFA5C2A0083F0CB /* Sources */,
+				944CA6CB1DFA5C2A0083F0CB /* Frameworks */,
+				944CA6CC1DFA5C2A0083F0CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "07.手勢解鎖";
+			productName = "07.手勢解鎖";
+			productReference = 944CA6CE1DFA5C2A0083F0CB /* 07.手勢解鎖.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		944CA6C61DFA5C2A0083F0CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "ImL1s-MacPro";
+				TargetAttributes = {
+					944CA6CD1DFA5C2A0083F0CB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ZAZT4JZ625;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 944CA6C91DFA5C2A0083F0CB /* Build configuration list for PBXProject "07.手勢解鎖" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 944CA6C51DFA5C2A0083F0CB;
+			productRefGroup = 944CA6CF1DFA5C2A0083F0CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				944CA6CD1DFA5C2A0083F0CB /* 07.手勢解鎖 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		944CA6CC1DFA5C2A0083F0CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944CA6E11DFA5C2A0083F0CB /* LaunchScreen.storyboard in Resources */,
+				944CA6DE1DFA5C2A0083F0CB /* Assets.xcassets in Resources */,
+				944CA6DC1DFA5C2A0083F0CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		944CA6CA1DFA5C2A0083F0CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944CA6D91DFA5C2A0083F0CB /* ViewController.m in Sources */,
+				944CA6EA1DFA5E660083F0CB /* LockView.m in Sources */,
+				944CA6D61DFA5C2A0083F0CB /* AppDelegate.m in Sources */,
+				944CA6D31DFA5C2A0083F0CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		944CA6DA1DFA5C2A0083F0CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				944CA6DB1DFA5C2A0083F0CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		944CA6DF1DFA5C2A0083F0CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				944CA6E01DFA5C2A0083F0CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		944CA6E31DFA5C2A0083F0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		944CA6E41DFA5C2A0083F0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		944CA6E61DFA5C2A0083F0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZAZT4JZ625;
+				INFOPLIST_FILE = "07.手勢解鎖/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HomeWatch.-7-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		944CA6E71DFA5C2A0083F0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZAZT4JZ625;
+				INFOPLIST_FILE = "07.手勢解鎖/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HomeWatch.-7-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		944CA6C91DFA5C2A0083F0CB /* Build configuration list for PBXProject "07.手勢解鎖" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944CA6E31DFA5C2A0083F0CB /* Debug */,
+				944CA6E41DFA5C2A0083F0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		944CA6E51DFA5C2A0083F0CB /* Build configuration list for PBXNativeTarget "07.手勢解鎖" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944CA6E61DFA5C2A0083F0CB /* Debug */,
+				944CA6E71DFA5C2A0083F0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 944CA6C61DFA5C2A0083F0CB /* Project object */;
+}

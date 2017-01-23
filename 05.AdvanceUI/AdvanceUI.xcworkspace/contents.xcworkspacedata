@@ -154,4 +154,54 @@
          location = "group:10.&#x5716;&#x7247;&#x52a0;&#x6c34;&#x5370;/10.&#x5716;&#x7247;&#x52a0;&#x6c34;&#x5370;.xcodeproj">
       </FileRef>
    </Group>
+   <Group
+      location = "group:06"
+      name = "06">
+      <FileRef
+         location = "group:01.&#x7c21;&#x55ae;&#x5716;&#x5f62;&#x88c1;&#x526a;/01.&#x7c21;&#x55ae;&#x5716;&#x5f62;&#x88c1;&#x526a;.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:02.&#x5716;&#x7247;&#x908a;&#x6846;&#x8207;&#x88c1;&#x6e1b;/02.&#x5716;&#x7247;&#x908a;&#x6846;&#x8207;&#x88c1;&#x6e1b;.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:03_&#x622a;&#x5c4f;/03_&#x622a;&#x5c4f;.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:04.&#x6307;&#x5b9a;&#x622a;&#x5c4f;/04.&#x6307;&#x5b9a;&#x622a;&#x5c4f;.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:05.&#x5716;&#x7247;&#x64e6;&#x9664;/05.&#x5716;&#x7247;&#x64e6;&#x9664;.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:07.&#x624b;&#x52e2;&#x89e3;&#x9396;/07.&#x624b;&#x52e2;&#x89e3;&#x9396;.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:08.Painter/08.Painter.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:07"
+      name = "07">
+      <FileRef
+         location = "group:08-CABasicAnimation/08-CABasicAnimation.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:06.Clock/06.Clock.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:05_ImplicitAnimation/05_ImplicitAnimation.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:04.positionAndAnchorPoint/04.positionAndAnchorPoint.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:01.CALayer&#x57fa;&#x672c;&#x64cd;&#x4f5c;/01.CALayer&#x57fa;&#x672c;&#x64cd;&#x4f5c;.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:02.CATransform3D/02.CATransform3D.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:03.UIViewAndCALayer/03.UIViewAndCALayer.xcodeproj">
+      </FileRef>
+   </Group>
 </Workspace>

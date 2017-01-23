@@ -35,6 +35,8 @@
     
     return _foodArray;
 }
+- (IBAction)onCleanBtnClick:(id)sender {
+}
 
 - (void)viewDidLoad
 {
